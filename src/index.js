@@ -1,8 +1,8 @@
 import './sass/main.scss';
 
-import imegesList from './tpl/imegesList.hbs';
+import imagesList from './tpl/imagesList.hbs';
 import { searchImages } from './apiService';
-import LoadMoreBtn from './load-more-btn';
+import LoadBtn from './load-btn';
 
 const loadMoreBtn = new LoadMoreBtn({
   selector: '[data-action="load-more"]',
